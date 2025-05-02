@@ -9,7 +9,6 @@ class SmartPokerAgent(BasePokerPlayer):
         2. **Opponent Modeling**: Tracks fold/call/raise actions and detects aggression.
         3. **Fallback**: Picks random valid action if nothing else triggers.
         """
-
         # --- 1. Mini-Abstraction (Pocket Pairs + High Card Combo) ---
         ranks = []
         for c in hole_card:
