@@ -84,7 +84,7 @@ def get_q_table():
     q_values: returns the dictionary containing the q_values
   """
   curr_dir = os.path.dirname(__file__)
-  q_values_path = os.path.join(curr_dir, "q_values.pkl")
+  q_values_path = os.path.join(curr_dir, "q_values_v3.pkl")
 
   with open(q_values_path, "rb") as f:
     q_values = pickle.load(f)

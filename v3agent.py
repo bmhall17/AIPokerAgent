@@ -1,8 +1,8 @@
 from pypokerengine.players import BasePokerPlayer
 import random as random
-from ouragent_helpers import extract_state, get_q_table
+from v3_helpers import extract_state, get_q_table
 
-class OurPlayer(BasePokerPlayer):
+class v3Player(BasePokerPlayer):
 
   def declare_action(self, valid_actions, hole_card, round_state):
     """
@@ -48,4 +48,4 @@ class OurPlayer(BasePokerPlayer):
     pass
 
 def setup_ai():
-  return OurPlayer()
+  return v3Player()
