@@ -4,7 +4,7 @@ from pypokerengine.players import BasePokerPlayer
 from sub.mccfr.mccfr_abstraction import get_infoset_key
 
 
-DEFAULT_STRATEGY_FILE = "sub/mccfr/mccfr_checkpoint_4000_converted.pkl"
+DEFAULT_STRATEGY_FILE = "sub/mccfr/mccfr_checkpoint_10000_converted_avg.pkl"
 INTERNAL_ACTION_MAP = { 0: "fold", 1: "call", 2: "raise" }
 ACTION_MAP = {
     "fold": 'f', "call": 'c', "check": 'c', "raise": 'r',
